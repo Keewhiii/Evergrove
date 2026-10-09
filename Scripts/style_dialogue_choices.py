@@ -12,6 +12,7 @@ for index in range(1,5):
   widget={'refPath':W+':WidgetTree.'+name+str(index)}
   slot=json.loads(q.call('get_properties',{'instance':widget,'properties':['Slot']},OBJ))['Slot']
   values={'HorizontalAlignment':alignment,'VerticalAlignment':'VAlign_Center' if name=='TextChoice' else 'VAlign_Fill','Padding':{'left':4,'top':2,'right':4,'bottom':2} if name=='TextChoice' else {'left':0,'top':0,'right':0,'bottom':0}}
+  if name == 'Choice': values['Size'] = {'value': 1, 'sizeRule': 'Automatic'}
   q.call('set_properties',{'instance':slot,'values':json.dumps(values)},OBJ)
 code=(q.AUDIT/'EnsureTurnInChoice.dsl').read_text()
 if '(bind button ' not in code:
