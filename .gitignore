@@ -16,6 +16,10 @@ Saved/
 # Build files
 Build/
 
+# Python editor authoring tools
+__pycache__/
+*.py[cod]
+
 # OS files
 .DS_Store
 Thumbs.db

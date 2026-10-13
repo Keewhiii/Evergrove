@@ -4,11 +4,19 @@ During gameplay, press F5 to quick-save and F9 to quick-load. Loading is manual;
 
 The single default slot is AdventureRPG_QuickSave, user index 0. In this editor project the file is Saved/SaveGames/AdventureRPG_QuickSave.sav. F5 replaces that slot. BP_Player.SaveSlotName can be changed for future multiple-slot menus. The test suite uses its own AdventureRPG_SaveValidation_20261009 slot and deletes only that test slot.
 
+`Config/DefaultInput.ini` removes Unreal's inherited F5 Shader Complexity and F9
+screenshot debug bindings so these keys only perform the game's save/load actions.
+Restart the editor after changing this configuration; packaged games need a new
+package. In an older running build, F3 restores normal Lit rendering if F5 has
+switched the scene to white/black debug shading. Loading restores gameplay state,
+not the viewport's debug rendering mode.
+
 ## Saved state
 
 - Player transform, gold, active quest IDs, completed history, combat progress and inventory quantities.
 - Remaining player-owned quest enemies and pickups: their quest IDs, objective kind/target, transforms, and enemy current/maximum health.
 - Save version and level name for compatibility checks.
+- Befriended summon roster (up to three), beasts met, selected summon, and player/companion health; see [CompanionCombat.md](CompanionCombat.md).
 
 The journal reads the restored player state on its next opening. Save/load never grants a quest reward. Completed enemies and consumed pickups are absent from the objective snapshot and are not recreated. Unrelated inventory quantities are preserved. The snapshot restores exact remaining actors rather than spawning a full fresh objective set from the catalog.
 
