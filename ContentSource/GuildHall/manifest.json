@@ -1,0 +1,22 @@
+[
+  {
+    "name": "SM_GuildHall_Shell",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\GuildHall\\FBX\\SM_GuildHall_Shell.fbx",
+    "parts": 356
+  },
+  {
+    "name": "SM_GuildHall_Roof",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\GuildHall\\FBX\\SM_GuildHall_Roof.fbx",
+    "parts": 100
+  },
+  {
+    "name": "SM_GuildHall_Ornaments",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\GuildHall\\FBX\\SM_GuildHall_Ornaments.fbx",
+    "parts": 1190
+  },
+  {
+    "name": "SM_GuildHall_Porch",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\GuildHall\\FBX\\SM_GuildHall_Porch.fbx",
+    "parts": 66
+  }
+]

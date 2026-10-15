@@ -1,0 +1,66 @@
+[
+  {
+    "name": "WestLounge",
+    "position_m": [
+      -11.8,
+      6.2,
+      1
+    ]
+  },
+  {
+    "name": "EastLounge",
+    "position_m": [
+      11.8,
+      6.2,
+      1
+    ]
+  },
+  {
+    "name": "WestHall",
+    "position_m": [
+      -3.8,
+      12.8,
+      1
+    ]
+  },
+  {
+    "name": "EastHall",
+    "position_m": [
+      3.8,
+      12.8,
+      1
+    ]
+  },
+  {
+    "name": "WestReceptionWaiting",
+    "position_m": [
+      -4.3,
+      18.2,
+      1
+    ]
+  },
+  {
+    "name": "EastReceptionWaiting",
+    "position_m": [
+      4.3,
+      18.2,
+      1
+    ]
+  },
+  {
+    "name": "WestGallery",
+    "position_m": [
+      -4.2,
+      24.5,
+      4.6
+    ]
+  },
+  {
+    "name": "EastGallery",
+    "position_m": [
+      4.2,
+      24.5,
+      4.6
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "tool": "Built-in image_gen",
+  "prompts": {
+    "Oak": "Seamless square diffuse texture of warm golden honey oak wood for a detailed cartoon HD-2D JRPG guild hall. Flat orthographic material texture ONLY. Broad vertical softly irregular wood grain bands, sparse little stylized knots, subtle warm edge streaks, medium warm amber base, darker chestnut grain, restrained cream highlights. Hand painted like a polished miniature game room, clean readable shapes, a little pixel clustering, no photorealism, no fine noise, no harsh black outlines, no lighting gradient, no perspective, no plank seams, no objects, no text, no border. Seamless on all four sides. Grain is understated and readable, not busy.",
+    "Plaster": "Seamless square diffuse texture for warm creamy parchment plaster inside a cartoon HD-2D JRPG guild hall. Flat orthographic texture only. Soft hand painted broad beige and ivory mottling, very restrained clean surface variation, subtle squared brush clusters. Warm welcoming anime adventure interior. No gritty noise, no cracks, no dirt, no objects, no perspective, no directional lighting, no text or border. Seamless all edges. Low contrast material texture, not a scene."
+  }
+}

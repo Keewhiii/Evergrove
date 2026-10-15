@@ -1,0 +1,13 @@
+{
+  "width_m": 26,
+  "depth_m": 26,
+  "previous_width_m": 18,
+  "previous_depth_m": 18,
+  "furniture_scale": 1,
+  "stairs_x_m": 10.833333333333334,
+  "stair_start_y_m": 8.897777777777778,
+  "gallery_front_y_m": 20.22222222222222,
+  "reception_anchor_y_m": 16.03333333333333,
+  "reception_approach_y_m": 14.133333333333333,
+  "npc_spawn_slots": 8
+}

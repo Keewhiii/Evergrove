@@ -1,0 +1,14 @@
+# Flat tree sprites — built-in ImageGen
+
+Final generated files: `T_FlatTrunk.png` and `T_LeafTier.png`.
+Blender model: `AdventureRPG_LayeredWoodland.blend`, scene `StackedLeaf_Studio`.
+The textures were generated with the built-in image tool. They are mapped onto
+flat Blender planes; complete leaf sprites are stacked at separate heights.
+
+## Trunk prompt
+
+Asset type: one transparent pixel-art TREE TRUNK SPRITE for a layered 2.5D RPG tree. The supplied screenshot is only a style reference: closely match its short, broad, flat painted brown trunks visible below the green foliage. Output ONE isolated straight upright tree trunk with a wide flared root base and a narrower squared-off top which will be hidden behind foliage. NO leaves or canopy, no branches, no ground, no cast shadow, no scenery, no text or symbols. The silhouette should be stocky and squat, about as wide as it is tall; roots flare sideways at the bottom into a broad irregular base, with a flat bottom so it stands firmly on the ground. Original crisp chunky pixel art, hand-painted 2D sprite with a restrained palette of 5 to 7 warm brown shades. Broad vertical bark stripes and simple painted root divisions, minimal texture. Three-quarter elevated RPG view consistent with the screenshot, but entirely a FLAT SPRITE, not a rendered cylinder or polygon primitive. Keep the trunk perfectly straight and centered, no leaning, no perspective skew. No gloss, no photographic bark, no smooth gradients. Actual transparent alpha background, small transparent margin all around. No blue symbol or watermark.
+
+## Complete leaf tier prompt
+
+Create ONE isolated transparent game texture: a SINGLE ROUND SCALLOPED LEAF TIER for building a tree by stacking flat textured planes at different heights. Look at the rounded lime-green top foliage in the reference images. We need ONLY ONE complete leafy rosette/cap seen DIRECTLY FROM ABOVE, not a complete tree or canopy tower. It will be applied to one flat plane and repeated at different sizes/heights in Blender. Nearly circular organic outline with 14 to 20 broad drooping lobed leaf tips around its rim; a big simple green center with 3 or 4 sparse curved lime-green swirl highlight strokes like the reference. Crisp chunky pixel art, large clean color shapes, bright leaf-green and lime highlights, modest dark-green outline near the scalloped perimeter. A few broad overlapping leaves around the edge, NO hundreds of little oval leaves, NO veins or noise. Round disk silhouette, full and complete on all sides, approximately equal width and height. Transparent background outside the leaf silhouette. No trunk, stem, ground, shadows, scenery, flower, text, logo, badge or blue symbol. A flat 2D painted sprite, not a rendered 3D object. Keep a small transparent margin. Low-resolution pixel-art look equivalent to a 128x128 sprite enlarged with nearest-neighbor scaling. Original art closely following the leaf shapes in the supplied references.

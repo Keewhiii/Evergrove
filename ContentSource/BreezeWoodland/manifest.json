@@ -1,0 +1,32 @@
+[
+  {
+    "name": "SM_BreezeTree_A",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\BreezeWoodland\\FBX\\SM_BreezeTree_A.fbx",
+    "triangles": 12
+  },
+  {
+    "name": "SM_BreezeTree_B",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\BreezeWoodland\\FBX\\SM_BreezeTree_B.fbx",
+    "triangles": 52
+  },
+  {
+    "name": "SM_BreezeTree_C",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\BreezeWoodland\\FBX\\SM_BreezeTree_C.fbx",
+    "triangles": 12
+  },
+  {
+    "name": "SM_BreezeFlowers_White",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\BreezeWoodland\\FBX\\SM_BreezeFlowers_White.fbx",
+    "triangles": 306
+  },
+  {
+    "name": "SM_BreezeFlowers_Yellow",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\BreezeWoodland\\FBX\\SM_BreezeFlowers_Yellow.fbx",
+    "triangles": 306
+  },
+  {
+    "name": "SM_BreezeLeafField",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\BreezeWoodland\\FBX\\SM_BreezeLeafField.fbx",
+    "triangles": 2640
+  }
+]

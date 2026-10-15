@@ -11,7 +11,7 @@ with urllib.request.urlopen(request, timeout=40) as response:
 def combat_rpc(method,params):
     payload={'jsonrpc':'2.0','id':2,'method':method,'params':params}
     headers={'Content-Type':'application/json','Accept':'application/json, text/event-stream','Mcp-Session-Id':q.m.SESSION}
-    with urllib.request.urlopen(urllib.request.Request('http://127.0.0.1:8000/mcp',data=json.dumps(payload).encode(),headers=headers),timeout=240) as response:
+    with urllib.request.urlopen(urllib.request.Request('http://127.0.0.1:8000/mcp',data=json.dumps(payload).encode(),headers=headers),timeout=600) as response:
         result=json.load(response)
     if 'error' in result:raise RuntimeError(result)
     return result['result']

@@ -1,0 +1,96 @@
+[
+  {
+    "name": "SM_Stacked2D_Tree_A",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\LayeredWoodland\\FBX\\SM_Stacked2D_Tree_A.fbx",
+    "core_planes": 6,
+    "trunk_planes": 1,
+    "complete_canopy_planes": 5,
+    "tier_heights_m": [
+      2.4,
+      2.85,
+      3.3,
+      3.75,
+      4.2
+    ],
+    "triangles": 12,
+    "objects": [
+      "A_FlatTrunk",
+      "A_LeafTier_1",
+      "A_LeafTier_2",
+      "A_LeafTier_3",
+      "A_LeafTier_4",
+      "A_LeafTier_5"
+    ]
+  },
+  {
+    "name": "SM_Stacked2D_Tree_B",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\LayeredWoodland\\FBX\\SM_Stacked2D_Tree_B.fbx",
+    "core_planes": 6,
+    "trunk_planes": 1,
+    "complete_canopy_planes": 5,
+    "tier_heights_m": [
+      2.4,
+      2.85,
+      3.3,
+      3.75,
+      4.2
+    ],
+    "triangles": 62,
+    "objects": [
+      "B_FlatTrunk",
+      "B_LeafTier_1",
+      "B_LeafTier_2",
+      "B_LeafTier_3",
+      "B_LeafTier_4",
+      "B_LeafTier_5",
+      "B_Flower_0_0",
+      "B_Flower_0_1",
+      "B_Flower_0_2",
+      "B_Flower_0_3",
+      "B_Flower_0_4",
+      "B_Flower_1_0",
+      "B_Flower_1_1",
+      "B_Flower_1_2",
+      "B_Flower_1_3",
+      "B_Flower_1_4",
+      "B_Flower_2_0",
+      "B_Flower_2_1",
+      "B_Flower_2_2",
+      "B_Flower_2_3",
+      "B_Flower_2_4",
+      "B_Flower_3_0",
+      "B_Flower_3_1",
+      "B_Flower_3_2",
+      "B_Flower_3_3",
+      "B_Flower_3_4",
+      "B_Flower_4_0",
+      "B_Flower_4_1",
+      "B_Flower_4_2",
+      "B_Flower_4_3",
+      "B_Flower_4_4"
+    ]
+  },
+  {
+    "name": "SM_Stacked2D_Tree_C",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\LayeredWoodland\\FBX\\SM_Stacked2D_Tree_C.fbx",
+    "core_planes": 6,
+    "trunk_planes": 1,
+    "complete_canopy_planes": 5,
+    "tier_heights_m": [
+      2.4,
+      2.85,
+      3.3,
+      3.75,
+      4.2
+    ],
+    "triangles": 12,
+    "objects": [
+      "C_FlatTrunk",
+      "C_LeafTier_1",
+      "C_LeafTier_2",
+      "C_LeafTier_3",
+      "C_LeafTier_4",
+      "C_LeafTier_5"
+    ]
+  }
+]

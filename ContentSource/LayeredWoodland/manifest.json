@@ -1,0 +1,47 @@
+[
+  {
+    "name": "SM_Layered_Tree_A",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\LayeredWoodland\\FBX\\SM_Layered_Tree_A.fbx",
+    "planes": 6,
+    "triangles": 12,
+    "canopy_depth_m": 0.48,
+    "objects": [
+      "A_Trunk_2D",
+      "A_Canopy_Layer_1",
+      "A_Canopy_Layer_2",
+      "A_Canopy_Layer_3",
+      "A_Canopy_Layer_4",
+      "A_Canopy_Layer_5"
+    ]
+  },
+  {
+    "name": "SM_Layered_Tree_B",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\LayeredWoodland\\FBX\\SM_Layered_Tree_B.fbx",
+    "planes": 6,
+    "triangles": 12,
+    "canopy_depth_m": 0.48,
+    "objects": [
+      "B_Trunk_2D",
+      "B_Canopy_Layer_1",
+      "B_Canopy_Layer_2",
+      "B_Canopy_Layer_3",
+      "B_Canopy_Layer_4",
+      "B_Canopy_Layer_5"
+    ]
+  },
+  {
+    "name": "SM_Layered_Tree_C",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\LayeredWoodland\\FBX\\SM_Layered_Tree_C.fbx",
+    "planes": 6,
+    "triangles": 12,
+    "canopy_depth_m": 0.48,
+    "objects": [
+      "C_Trunk_2D",
+      "C_Canopy_Layer_1",
+      "C_Canopy_Layer_2",
+      "C_Canopy_Layer_3",
+      "C_Canopy_Layer_4",
+      "C_Canopy_Layer_5"
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "SM_Pixel_CardTree_A",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\PixelWoodland\\FBX\\SM_Pixel_CardTree_A.fbx"
+  },
+  {
+    "name": "SM_Pixel_CardTree_B",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\PixelWoodland\\FBX\\SM_Pixel_CardTree_B.fbx"
+  },
+  {
+    "name": "SM_Pixel_CardTree_C",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\PixelWoodland\\FBX\\SM_Pixel_CardTree_C.fbx"
+  },
+  {
+    "name": "SM_Pixel_CardBush",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\PixelWoodland\\FBX\\SM_Pixel_CardBush.fbx"
+  },
+  {
+    "name": "SM_Pixel_Trail",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\PixelWoodland\\FBX\\SM_Pixel_Trail.fbx"
+  }
+]

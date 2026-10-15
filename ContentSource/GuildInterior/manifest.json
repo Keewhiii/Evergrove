@@ -1,0 +1,32 @@
+[
+  {
+    "name": "SM_Guild_Architecture_Roomy",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\GuildInterior\\FBX\\SM_Guild_Architecture_Roomy.fbx",
+    "parts": 608
+  },
+  {
+    "name": "SM_Guild_Furniture_Roomy",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\GuildInterior\\FBX\\SM_Guild_Furniture_Roomy.fbx",
+    "parts": 283
+  },
+  {
+    "name": "SM_Guild_Details_Roomy",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\GuildInterior\\FBX\\SM_Guild_Details_Roomy.fbx",
+    "parts": 885
+  },
+  {
+    "name": "SM_Guild_DoorLeft_Detailed",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\GuildInterior\\FBX\\SM_Guild_DoorLeft_Detailed.fbx",
+    "parts": 4
+  },
+  {
+    "name": "SM_Guild_DoorRight_Detailed",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\GuildInterior\\FBX\\SM_Guild_DoorRight_Detailed.fbx",
+    "parts": 4
+  },
+  {
+    "name": "SM_Guild_FacadeOpen_Detailed",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\GuildInterior\\FBX\\SM_Guild_FacadeOpen_Detailed.fbx",
+    "parts": 1140
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "name": "SM_SpatialWindLeaves",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\WoodlandWindFX\\FBX\\SM_SpatialWindLeaves.fbx",
+    "leaves": 220,
+    "uv_channels": 3,
+    "triangles": 3080
+  },
+  {
+    "name": "SM_SpatialRunLeafBurst",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\WoodlandWindFX\\FBX\\SM_SpatialRunLeafBurst.fbx",
+    "leaves": 8,
+    "uv_channels": 3,
+    "triangles": 112
+  }
+]

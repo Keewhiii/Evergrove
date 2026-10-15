@@ -1,0 +1,82 @@
+[
+  {
+    "name": "SM_Pixel_Tree_A",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\PixelWoodland\\FBX\\SM_Pixel_Tree_A.fbx",
+    "size_m": [
+      2.9166665077209473,
+      2.9166665077209473,
+      4.164999961853027
+    ],
+    "triangles": 24968
+  },
+  {
+    "name": "SM_Pixel_Tree_B",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\PixelWoodland\\FBX\\SM_Pixel_Tree_B.fbx",
+    "size_m": [
+      3.018749952316284,
+      2.932499885559082,
+      4.164999961853027
+    ],
+    "triangles": 24886
+  },
+  {
+    "name": "SM_Pixel_Tree_C",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\PixelWoodland\\FBX\\SM_Pixel_Tree_C.fbx",
+    "size_m": [
+      3.120833396911621,
+      3.120833396911621,
+      4.164999961853027
+    ],
+    "triangles": 24940
+  },
+  {
+    "name": "SM_Pixel_TallGrass",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\PixelWoodland\\FBX\\SM_Pixel_TallGrass.fbx",
+    "size_m": [
+      0.8050000071525574,
+      0.26600000262260437,
+      0.8399999737739563
+    ],
+    "triangles": 800
+  },
+  {
+    "name": "SM_Pixel_Bush",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\PixelWoodland\\FBX\\SM_Pixel_Bush.fbx",
+    "size_m": [
+      1.4000000953674316,
+      1.3199999332427979,
+      0.925000011920929
+    ],
+    "triangles": 11212
+  },
+  {
+    "name": "SM_Pixel_Fern",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\PixelWoodland\\FBX\\SM_Pixel_Fern.fbx",
+    "size_m": [
+      0.8050000071525574,
+      0.26600000262260437,
+      0.2800000011920929
+    ],
+    "triangles": 1280
+  },
+  {
+    "name": "SM_Pixel_Flowers",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\PixelWoodland\\FBX\\SM_Pixel_Flowers.fbx",
+    "size_m": [
+      0.9941477179527283,
+      0.7812100052833557,
+      0.05578186362981796
+    ],
+    "triangles": 80
+  },
+  {
+    "name": "SM_Pixel_Ground",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\PixelWoodland\\FBX\\SM_Pixel_Ground.fbx",
+    "size_m": [
+      61.0,
+      34.0,
+      0.0020000000949949026
+    ],
+    "triangles": 17028
+  }
+]

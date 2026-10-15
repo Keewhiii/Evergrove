@@ -283,6 +283,6 @@ def author():
         call('connect_pins',{'output_pin':pressed,'input_pin':execute})
         if index is not None:
             call('set_pin_value',{'pin':next(p['pin_id'] for p in b['input_pins'] if p['name']=='Index'),'value':str(index)})
-    call('compile_blueprint',{'blueprint':ref(DIRECTOR),'warnings_as_errors':True})
-    call('save_assets',{'asset_paths':[DIRECTOR]},ASSET)
+    from fix_combat_input_bindings import deduplicate
+    deduplicate()
 if __name__=='__main__': author()

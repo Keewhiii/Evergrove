@@ -1,0 +1,22 @@
+[
+  {
+    "name": "SM_Prop_Grass",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\PixelProps\\FBX\\SM_Prop_Grass.fbx",
+    "triangles": 4
+  },
+  {
+    "name": "SM_Prop_Rock",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\PixelProps\\FBX\\SM_Prop_Rock.fbx",
+    "triangles": 2
+  },
+  {
+    "name": "SM_Prop_Lantern",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\PixelProps\\FBX\\SM_Prop_Lantern.fbx",
+    "triangles": 2
+  },
+  {
+    "name": "SM_Prop_Bush",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\PixelProps\\FBX\\SM_Prop_Bush.fbx",
+    "triangles": 6
+  }
+]

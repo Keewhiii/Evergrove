@@ -1,0 +1,145 @@
+[
+  {
+    "name": "SM_Woodland_Broadleaf_A",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\Woodland\\FBX\\SM_Woodland_Broadleaf_A.fbx",
+    "vertices": 7539,
+    "triangles": 7422,
+    "size_m": [
+      4.526456832885742,
+      4.679845333099365,
+      6.156851768493652
+    ]
+  },
+  {
+    "name": "SM_Woodland_Broadleaf_B",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\Woodland\\FBX\\SM_Woodland_Broadleaf_B.fbx",
+    "vertices": 7539,
+    "triangles": 7422,
+    "size_m": [
+      4.239794731140137,
+      4.886336326599121,
+      5.2570037841796875
+    ]
+  },
+  {
+    "name": "SM_Woodland_Broadleaf_C",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\Woodland\\FBX\\SM_Woodland_Broadleaf_C.fbx",
+    "vertices": 7539,
+    "triangles": 7422,
+    "size_m": [
+      4.570274353027344,
+      4.9418816566467285,
+      6.962929725646973
+    ]
+  },
+  {
+    "name": "SM_Woodland_Bush",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\Woodland\\FBX\\SM_Woodland_Bush.fbx",
+    "vertices": 5600,
+    "triangles": 5292,
+    "size_m": [
+      1.9379096031188965,
+      1.9378761053085327,
+      1.0858979225158691
+    ]
+  },
+  {
+    "name": "SM_Woodland_Fern",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\Woodland\\FBX\\SM_Woodland_Fern.fbx",
+    "vertices": 680,
+    "triangles": 900,
+    "size_m": [
+      1.312563419342041,
+      1.691859245300293,
+      0.5085238218307495
+    ]
+  },
+  {
+    "name": "SM_Woodland_Grass",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\Woodland\\FBX\\SM_Woodland_Grass.fbx",
+    "vertices": 170,
+    "triangles": 102,
+    "size_m": [
+      0.8599863052368164,
+      0.8046744465827942,
+      0.4874672591686249
+    ]
+  },
+  {
+    "name": "SM_Woodland_MossRock_A",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\Woodland\\FBX\\SM_Woodland_MossRock_A.fbx",
+    "vertices": 40,
+    "triangles": 68,
+    "size_m": [
+      1.9992644786834717,
+      1.4276819229125977,
+      0.9521548748016357
+    ]
+  },
+  {
+    "name": "SM_Woodland_MossRock_B",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\Woodland\\FBX\\SM_Woodland_MossRock_B.fbx",
+    "vertices": 40,
+    "triangles": 68,
+    "size_m": [
+      2.094829559326172,
+      1.4788219928741455,
+      0.9558277130126953
+    ]
+  },
+  {
+    "name": "SM_Woodland_FallenLog",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\Woodland\\FBX\\SM_Woodland_FallenLog.fbx",
+    "vertices": 2463,
+    "triangles": 2386,
+    "size_m": [
+      2.0667848587036133,
+      0.7384294271469116,
+      0.7894902229309082
+    ]
+  },
+  {
+    "name": "SM_Woodland_Stump",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\Woodland\\FBX\\SM_Woodland_Stump.fbx",
+    "vertices": 139,
+    "triangles": 258,
+    "size_m": [
+      1.1999948024749756,
+      1.258452296257019,
+      0.6659349203109741
+    ]
+  },
+  {
+    "name": "SM_Woodland_Wildflowers",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\Woodland\\FBX\\SM_Woodland_Wildflowers.fbx",
+    "vertices": 270,
+    "triangles": 252,
+    "size_m": [
+      1.012160301208496,
+      0.6396668553352356,
+      0.33349284529685974
+    ]
+  },
+  {
+    "name": "SM_Woodland_GroundSkin",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\Woodland\\FBX\\SM_Woodland_GroundSkin.fbx",
+    "vertices": 8487,
+    "triangles": 16592,
+    "size_m": [
+      61.0,
+      34.0,
+      0.0
+    ]
+  },
+  {
+    "name": "SM_Woodland_TrailSkin",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\Woodland\\FBX\\SM_Woodland_TrailSkin.fbx",
+    "vertices": 238,
+    "triangles": 232,
+    "size_m": [
+      45.089874267578125,
+      18.0,
+      0.0
+    ]
+  }
+]
