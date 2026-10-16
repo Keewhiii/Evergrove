@@ -19,7 +19,7 @@ try:
  camera=call('find_actors',{'name':'Woodland_FollowCamera','tag':'','collision_channels':[]},SCENE)[0]
  cc=call('get_components',{'actor':camera,'component_type':ref('/Script/Engine.CameraComponent')},ACT)[0]
  settings=json.loads(call('get_properties',{'instance':cc,'properties':['ProjectionMode','OrthoWidth']},OBJ));assert settings['OrthoWidth']==1200
- xf=call('get_actor_transform',{'actor':camera},ACT);assert abs(xf['rotation']['pitch']+34)<.01,xf
+ xf=call('get_actor_transform',{'actor':camera},ACT);assert abs(xf['rotation']['pitch']+31)<.01,xf
  report['camera']=settings;report['camera_transform']=xf
  leaf=call('find_actors',{'name':'Woodland_IntermittentLeaves','tag':'','collision_channels':[]},SCENE);assert len(leaf)==1
  for title,target in [('Calm',0),('Gust',6),('Calm_After',20)]:

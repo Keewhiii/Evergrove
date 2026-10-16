@@ -1,0 +1,30 @@
+[
+  {
+    "name": "SM_ForestCartoonRock_0",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\ForestFeatures\\SM_ForestCartoonRock_0.obj"
+  },
+  {
+    "name": "SM_ForestCartoonRock_1",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\ForestFeatures\\SM_ForestCartoonRock_1.obj"
+  },
+  {
+    "name": "SM_ForestCartoonLog",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\ForestFeatures\\SM_ForestCartoonLog.obj"
+  },
+  {
+    "name": "SM_ForestLake",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\ForestFeatures\\SM_ForestLake.obj"
+  },
+  {
+    "name": "SM_ForestPond_A",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\ForestFeatures\\SM_ForestPond_A.obj"
+  },
+  {
+    "name": "SM_ForestPond_B",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\ForestFeatures\\SM_ForestPond_B.obj"
+  },
+  {
+    "name": "SM_ForestRiver",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\ForestFeatures\\SM_ForestRiver.obj"
+  }
+]

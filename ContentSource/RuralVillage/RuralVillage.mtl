@@ -1,0 +1,28 @@
+newmtl Timber
+Kd 0.28 0.135 0.065
+newmtl Plank
+Kd 0.46 0.28 0.13
+newmtl PlankLight
+Kd 0.57 0.37 0.19
+newmtl Shingle
+Kd 0.26 0.18 0.1
+newmtl ShingleLight
+Kd 0.35 0.24 0.12
+newmtl Stone
+Kd 0.35 0.36 0.29
+newmtl StoneLight
+Kd 0.46 0.45 0.35
+newmtl Iron
+Kd 0.09 0.1 0.08
+newmtl Glass
+Kd 0.65 0.48 0.19
+newmtl Cream
+Kd 0.74 0.66 0.43
+newmtl Moss
+Kd 0.25 0.37 0.12
+newmtl Soil
+Kd 0.22 0.13 0.065
+newmtl Crop
+Kd 0.33 0.48 0.12
+newmtl Wheat
+Kd 0.66 0.48 0.16

@@ -22,7 +22,7 @@ try:
    assert 'SM_Prop_Grass' not in p['StaticMesh']['refPath']
  assert count==10,count
  camera=call('find_actors',{'name':'Woodland_FollowCamera','tag':'','collision_channels':[]},SCENE)[0]
- xf=call('get_actor_transform',{'actor':camera},ACT);assert abs(xf['rotation']['pitch']+34)<.01
+ xf=call('get_actor_transform',{'actor':camera},ACT);assert abs(xf['rotation']['pitch']+31)<.01
  cap=call('CaptureEditorImage',{},APP);(OUT/'Grass_PlayMode.png').write_bytes(base64.b64decode(cap['data']))
  (OUT/'runtime.json').write_text(json.dumps({'runtime_grass_tiles':count,'camera_pitch':xf['rotation']['pitch'],'collision_errors':[]},indent=2));print('BROADLEAF_RUNTIME_VERIFIED',count,flush=True)
 finally:

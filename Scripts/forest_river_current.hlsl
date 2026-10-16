@@ -1,0 +1,20 @@
+// Open, broken current streaks following the curved river; no cellular ripple grid.
+float y = Position.y;
+float center = 5750.0 + 180.0 * sin(y / 1200.0) + 90.0 * sin(y / 470.0);
+float across = (Position.x - center) / 30.0;
+float downstream = (y + Clock * 85.0) / 130.0;
+float distortion = sin(downstream * 1.7 + across * 0.6) * 0.18;
+float narrow = pow(saturate(0.5 + 0.5 * sin(across * 3.7 + distortion)), 18.0);
+float segments = pow(saturate(0.5 + 0.5 * sin(downstream * 2.5 + across * 2.1)), 3.0);
+float streak = narrow * segments;
+float wavelet = pow(saturate(0.5 + 0.5 * sin(downstream * 5.0 + sin(across * 1.3))), 22.0);
+wavelet *= pow(saturate(0.5 + 0.5 * sin(across * 2.3 - downstream * 0.7)), 4.0);
+float shallow = pow(saturate(Depth), 2.4);
+float broad = 0.5 + 0.5 * sin(downstream * 1.4 + sin(across * 0.7));
+float3 blue = lerp(float3(0.012,0.19,0.29),float3(0.025,0.40,0.46),shallow * 0.6 + broad * 0.4);
+blue *= 0.95 + 0.04 * sin(downstream * 2.0 + across);
+blue += streak * float3(0.055,0.13,0.17);
+blue += wavelet * float3(0.055,0.10,0.13);
+float bankFoam = smoothstep(0.90,0.99,Depth + 0.018 * sin(downstream * 4.0 + across));
+blue = lerp(blue,float3(0.58,0.73,0.72),bankFoam * (0.7 + 0.3 * sin(downstream * 3.0)));
+return blue;

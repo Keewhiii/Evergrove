@@ -1,0 +1,57 @@
+[
+  {
+    "name": "SM_RuralCottage_A",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\RuralVillage\\SM_RuralCottage_A.obj",
+    "faces": 841
+  },
+  {
+    "name": "SM_RuralCottage_B",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\RuralVillage\\SM_RuralCottage_B.obj",
+    "faces": 876
+  },
+  {
+    "name": "SM_RuralCottage_C",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\RuralVillage\\SM_RuralCottage_C.obj",
+    "faces": 819
+  },
+  {
+    "name": "SM_RuralGuildHall",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\RuralVillage\\SM_RuralGuildHall.obj",
+    "faces": 1034
+  },
+  {
+    "name": "SM_RuralBarn",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\RuralVillage\\SM_RuralBarn.obj",
+    "faces": 974
+  },
+  {
+    "name": "SM_RuralDoor",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\RuralVillage\\SM_RuralDoor.obj",
+    "faces": 58
+  },
+  {
+    "name": "SM_RuralFence",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\RuralVillage\\SM_RuralFence.obj",
+    "faces": 24
+  },
+  {
+    "name": "SM_RuralWell",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\RuralVillage\\SM_RuralWell.obj",
+    "faces": 256
+  },
+  {
+    "name": "SM_RuralBench",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\RuralVillage\\SM_RuralBench.obj",
+    "faces": 42
+  },
+  {
+    "name": "SM_RuralCabbage",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\RuralVillage\\SM_RuralCabbage.obj",
+    "faces": 17
+  },
+  {
+    "name": "SM_RuralWheat",
+    "file": "E:\\UE5 Projects\\AdventureRPG\\ContentSource\\RuralVillage\\SM_RuralWheat.obj",
+    "faces": 135
+  }
+]

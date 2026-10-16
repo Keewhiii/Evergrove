@@ -1,5 +1,6 @@
 ﻿"""Additive woodland dressing and a two-part introductory guild outing."""
 from build_woodland_blockout import *
+from woodland_lighting_settings import TRAIL_LANTERNS
 COZY='/Game/Game/World/BP_CozyWoodland.BP_CozyWoodland'
 FIRST='0_Woodland_010_Tea'
 SECOND='0_Woodland_020_Trail'
@@ -47,21 +48,15 @@ def scenery():
     mats['RockAtlas']='/Game/Environment/PixelProps/M_Prop_Rock.M_Prop_Rock'
     mats['LeafCard']='/Game/Environment/LayeredWoodland/M_StackedLeaf_1.M_StackedLeaf_1'
     mats['GrassCard']='/Game/Environment/BroadleafGrass/M_BroadleafGrass.M_BroadleafGrass'
-    mats['LanternCard']='/Game/Environment/PixelProps/M_Prop_Lantern.M_Prop_Lantern'
+    mats['LanternCard']='/Game/Environment/GuildHall/M_Guild_Iron.M_Guild_Iron'
     mats['DaisyCard']='/Game/Environment/LayeredWoodland/M_LayeredFlowerPixels.M_LayeredFlowerPixels'
     for k in ['Wood','Leaf','Stone','Path']:mats[k]='/Game/Game/Combat/M_Woodland_'+k+'.M_Woodland_'+k
     parts=[]
     def p(pos,size,mat,mesh='Cube'):parts.append((pos,tuple(v/100 for v in size),mats[mat],mesh))
     # The Blender guild exterior supplies its facade, sign, landing and benches.
-    for x,y in [(-710,-220),(710,-220),(840,330),(1440,340),(2020,380)]:
-        p((x,y,37),(105,85,74),'Terracotta','Cylinder')
-        p((x,y,77),(100,80,15),'Wood','Cylinder')
-        for dx,dy in [(-25,0),(20,20),(0,-22)]:
-            p((x+dx,y+dy,112),(60,50,65),'Sage','Sphere')
-            p((x+dx,y+dy,145),(26,26,22),'Petal','Sphere')
     # Low lanterns frame the route; no new collision or navigation blockers.
-    for x,y in [(-710,-220),(710,-220),(1000,-240),(1450,-240),(2050,-240)]:
-        p((x,y,3),(100,100,100),'LanternCard','/Game/Environment/PixelProps/SM_Prop_Lantern.SM_Prop_Lantern')
+    for x,y in TRAIL_LANTERNS:
+        p((x,y,3),(100,100,100),'LanternCard','/Game/Environment/Lantern3D/SM_GuildLantern3D.SM_GuildLantern3D')
     # Organic foliage clusters and flowers around the first clearing's edges.
     for i,(x,y) in enumerate([(-820,440),(-700,680),(710,630),(820,-550),(1330,-670),(1450,660),(1690,810),(2030,780),(2100,-820),(1600,-850)]):
         p((x,y,3),(85,85,85),'LeafCard','/Game/Environment/PixelProps/SM_Prop_Bush.SM_Prop_Bush')
@@ -83,7 +78,8 @@ def scenery():
  (bind dressing (Game|SpawnActorfromClass :Class "/Game/Game/World/BP_CozyWoodland.BP_CozyWoodland_C" :SpawnTransform (Math|Transform|MakeTransform) :CollisionHandlingOverride "AlwaysSpawn"))))''')
     source=(ROOT/'Saved/CombatAudit/UpdateCamera.dsl').read_text(encoding='utf-8')
     for previous in ['1800.0','1666.0']:
-        source=source.replace('600.0) '+previous+') 1500.0','600.0) 2224.0) 1500.0')
+        source=source.replace('600.0) '+previous+') 1500.0','600.0) 2496.0) 1500.0')
+    source=source.replace('2224.0','2496.0')
     if '(CallFunction|EnsureCozy)' not in source:source=source.replace('(fn UpdateCamera (Delta)','(fn UpdateCamera (Delta)\n (CallFunction|EnsureCozy)',1)
     graph(WORLD,'UpdateCamera',source,[('Delta','float',None)])
     call('save_assets',{'asset_paths':[COZY,WORLD]},ASSET)

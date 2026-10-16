@@ -1,0 +1,11 @@
+float2 p=Position.xy;float h=0.0;
+h+=145.0*exp(-dot((p-float2(8500,-1900))/float2(1450,1350),(p-float2(8500,-1900))/float2(1450,1350))*1.5);
+h+=165.0*exp(-dot((p-float2(3700,-3900))/float2(1350,1250),(p-float2(3700,-3900))/float2(1350,1250))*1.5);
+h+=135.0*exp(-dot((p-float2(10300,3100))/float2(1600,1350),(p-float2(10300,3100))/float2(1600,1350))*1.5);
+h+=105.0*exp(-dot((p-float2(7000,1200))/float2(1100,1400),(p-float2(7000,1200))/float2(1100,1400))*1.5);
+float center=5750.0+180.0*sin(p.y/1200.0)+90.0*sin(p.y/470.0);
+h*=smoothstep(360.0,850.0,abs(p.x-center));
+h*=smoothstep(1.3,2.1,length((p-float2(8500,2500))/float2(700,500)));
+h*=smoothstep(1.3,2.1,length((p-float2(4100,2600))/float2(230,170)));
+h*=smoothstep(1.3,2.1,length((p-float2(7950,-4300))/float2(260,190)));
+return h+1.0;

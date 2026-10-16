@@ -1,0 +1,18 @@
+from pathlib import Path
+root=Path(__file__).resolve().parents[1];p=root/'Scripts/author_forest_level_unreal.py';s=p.read_text()
+s=s.replace("cube('Forest_GrassGround',(7500,0,-22),(12000,10000,44)","cube('Forest_GrassGround',(6700,-700,-22),(15000,14000,44)")
+s=s.replace("segments=[(a,b) for points in [route]+forks for a,b in zip(points,points[1:])]", "def expand(p):return (9200+(p[0]-9200)*1.5,1800+(p[1]-1800)*1.5)\nroute=[expand(p) for p in route];forks=[[expand(p) for p in points] for points in forks]\nforks.append([(9200,1800),(9600,1800),(9600,3300),(8900,3300)])\nsegments=[(a,b) for points in [route]+forks for a,b in zip(points,points[1:])]\nexec(compile((ROOT/'Scripts/forest_feature_details.py').read_text(),'forest_feature_details.py','exec'))")
+s=s.replace('range(4240,11000,300)','range(1740,11900,300)').replace('range(-3300,3600,300)','range(-5800,4700,300)')
+s=s.replace("or (abs(x-7400)<550 and abs(y-1700)<550)","or water_clearance(x,y)")
+s=s.replace('if distance(x,y)<360 or clearing:','if distance(x,y)<390 or clearing:')
+s=s.replace('rng.uniform(4500,10500)','rng.uniform(2000,11500)').replace('rng.uniform(-3000,3000)','rng.uniform(-5400,4300)')
+start=s.index('# A shaded pond');end=s.index('NPC=u.load_class',start)
+s=s[:start]+"place_forest_features()\n"+s[end:]
+s=s.replace("(4500,1000,100)","(2150,600,100)").replace("for y in [800,1200]","for y in [400,800]").replace("(4500,y,160)","(2150,y,160)").replace("(4500,1000,330)","(2150,600,330)").replace("(4700,1250,180)","(2350,850,180)")
+s=s.replace('(7500,-3450,6800,40),(7500,3450,6800,40),(4200,0,40,6900),(10900,0,40,6900)','(6700,-6000,10400,40),(6700,4800,10400,40),(1700,-600,40,10800),(11800,-600,40,10800)')
+s=s.replace('u.Vector(7500,0,280)','u.Vector(6700,-600,280)').replace('u.Vector(75,75,6)','u.Vector(115,115,6)')
+s=s.replace("'exit':[4500,1000]","'exit':[2150,600],'return_arrival':[2600,600],'water_bodies':water_bodies,'river_x':5750,'forest_scale':1.5")
+s=s.replace("(4800,1000,110)","(2600,600,110)")
+s=s.replace("or label=='Village_Rein'","or label in ['Village_Rein','Village_ReturnToForest','Village_ApproachSign'] or label.startswith('Village_ForestGateway')")
+p.write_text(s)
+print('LARGER_FOREST_SEPARATE_LAKE_RIVER_AND_TWO_PONDS_READY')

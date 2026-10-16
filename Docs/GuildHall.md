@@ -1,6 +1,6 @@
 # Guild hall exterior, interior and walk-through doors
 
-The temporary open NPC shelter has been replaced by a world-scaled guild landmark. Its exterior is about 19.7 metres wide with an 18 metre bell-tower finial. The original shelter remains hidden as a migration backup. The gameplay camera retains its 34-degree angle and close town framing.
+The temporary open NPC shelter has been replaced by a world-scaled guild landmark. Its exterior is about 19.7 metres wide with an 18 metre bell-tower finial. The original shelter remains hidden as a migration backup. The gameplay camera now uses a 31-degree angle and close town framing, with smooth character following on both interior floors. See [DayNight.md](DayNight.md).
 
 Editable Blender sources:
 

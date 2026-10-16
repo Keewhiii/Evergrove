@@ -1,0 +1,7 @@
+# Opening sequence
+
+New Game replaces the title HUD with a timed dream sequence, then loads `L_EvergroveForest`. A mysterious voice is represented by on-screen narration: a child of life, an unnamed burden, bringing life back to the world, and a meeting at the end of the worldline. This version has no recorded voiceover.
+
+The character wakes lying on the forest floor at (9200, 1800), far from the village. Rein, a town hunter, finds them unconscious and speaks as they slowly stand. They cannot recall their identity. Rein points out the old wooden trail markers and warns about dead ends. The camera gently widens as the black overlay recedes. The 26-second waking scene hands over control in the forest; the player must explore the winding route and side trails to reach town. The clock stays at day 1, 08:00 during awakening, then resumes together with player controls. Space or Escape skips either phase after a short input guard and always restores the standing pose. Load Game bypasses the opening and resumes the saved map and clock.
+
+Blueprint: `BP_EvergroveOpeningHUD`; base authoring: `Scripts/author_opening_sequence.py`; hunter revision: `Scripts/author_hunter_awakening.py`. `validate_opening_sequence.py` exercises completion and skipping, lying/standing pose, nearby hunter, input handoff, waking location, and clock pause/resume. Evidence: `Saved/OpeningSequenceAudit`. The title menu regression also checks New Game and legacy Load Game routes.

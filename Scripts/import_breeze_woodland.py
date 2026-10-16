@@ -103,11 +103,11 @@ def run():
    check=json.loads(tool('editor_toolset.toolsets.object.ObjectTools.get_properties',{'instance':c,'properties':['BodyInstance','bCanEverAffectNavigation']}))
    if check['BodyInstance']['collisionEnabled']!='NoCollision' or check['bCanEverAffectNavigation']:errors.append(a)
  cameras=tool('editor_toolset.toolsets.scene.SceneTools.find_actors',{'name':'Woodland_FollowCamera','tag':'','collision_channels':[]});camera=cameras[0]
- xf=tool('editor_toolset.toolsets.actor.ActorTools.get_actor_transform',{'actor':camera});xf['rotation']={'pitch':-34,'yaw':-90,'roll':0}
+ xf=tool('editor_toolset.toolsets.actor.ActorTools.get_actor_transform',{'actor':camera});xf['rotation']={'pitch':-31,'yaw':-90,'roll':0}
  tool('editor_toolset.toolsets.actor.ActorTools.set_actor_transform',{'actor':camera,'xform':xf,'worldspace':True})
  cc=tool('editor_toolset.toolsets.actor.ActorTools.get_components',{'actor':camera,'component_type':{'refPath':'/Script/Engine.CameraComponent'}})[0]
  tool('editor_toolset.toolsets.object.ObjectTools.set_properties',{'instance':cc,'values':json.dumps({'OrthoWidth':1200})})
- return {'replacements':counts,'collision_errors':errors,'camera_width':1200,'camera_pitch':-34}
+ return {'replacements':counts,'collision_errors':errors,'camera_width':1200,'camera_pitch':-31}
 '''
 report=json.loads(call('execute_tool_script',{'script':script},PROG));assert report['replacements']['trees']==87;assert not report['collision_errors']
 actors=call('find_actors',{'name':'Woodland_IntermittentLeaves','tag':'','collision_channels':[]},SCENE)

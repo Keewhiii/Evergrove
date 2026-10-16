@@ -1,0 +1,12 @@
+float seed=UV.x;
+float lifetime=12.0+seed*6.0;
+float age=frac(Clock/lifetime+seed);
+float3 center=float3(floor((Position.xy+150.0)/300.0)*300.0,740.0);
+float3 local=Position-center;
+float yaw=Clock*(0.55+seed*0.4)+seed*31.0;
+float pitch=0.65*sin(Clock*(1.2+seed)+seed*19.0);
+float3 turned=float3(local.x*cos(yaw)-local.y*sin(yaw),local.x*sin(yaw)+local.y*cos(yaw),local.z);
+turned=float3(turned.x,turned.y*cos(pitch)-turned.z*sin(pitch),turned.y*sin(pitch)+turned.z*cos(pitch));
+float gust=saturate((sin(Clock*0.19635)-0.35)/0.65);
+float3 flight=float3(-age*(100.0+seed*90.0)+sin(Clock*0.8+seed*29.0)*(12.0+gust*24.0),sin(Clock*0.65+seed*31.0)*18.0,-age*(740.0-Ground-10.0));
+return flight+turned-local;
